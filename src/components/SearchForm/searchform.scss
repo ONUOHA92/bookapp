@@ -1,0 +1,44 @@
+$border-color : #17B978;
+$Button-color:  #086972;
+
+
+
+.search-form-container {
+   max-width: 960px;
+   margin: 30px auto;
+   margin-top: 2%;
+
+   .input-form {
+     margin-left: 20%;
+     padding: 15px 10px;
+     border: 1px solid $border-color;
+     border-radius: 2px;
+     width: 50%;
+     float: left;
+
+       
+     
+   }
+
+   @media (max-width:500px) {
+    .input-form {
+      margin-left: 25px;
+      width: 70%;
+      float: left;
+    }
+ }
+
+   .title {
+       text-align: center;
+       text-transform: capitalize;
+       margin-bottom: 10px;
+   }
+
+   .search-button {
+    padding: 16px 10px; 
+    color: white;
+    border: none;
+    border-radius: 2px;
+     background-color: $Button-color;
+   }
+}
