@@ -10,24 +10,33 @@ $Button-color:  #086972;
    
 
    .input-form {
-     margin-left: 25%;
+     margin-left: 14%;
      padding: 15px 10px;
      border: 1px solid $border-color;
-     border-radius: 2px;
-     width: 50%;
-    
-
-       
+     border-radius: 5px;
+     font-size: 20px; 
+     width: 70%;
      
    }
 
-   @media (max-width:500px) {
-    .input-form {
-      margin-left: 25px;
+
+  .input-form {
+      @media (max-width: 900px) {
+         margin-left: 20%;
+      }
+      @media (max-width: 800px) {
+         margin-left: 10%;
+         width: 75%;
+      }
+
+      @media (max-width:500px) {
+       margin-left: 25px;
       width: 70%;
-      float: left;
+      margin-left: 14%;
     }
- }
+
+  }
+
 
    .title {
        text-align: center;

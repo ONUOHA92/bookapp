@@ -16,14 +16,6 @@ $card-color: #A7FFA3;
    grid-template-rows: repeat(3, 200px);
 }
 
-@media (max-width: 500px) {
-    .book-list-item {
-        grid-template-columns: repeat(1, 300px);
-        margin-left: 20%;
-        grid-template-rows:repeat(1 200px);
-    } 
-   }
-
 .author{  
     color: $header-color;
 }
@@ -35,3 +27,53 @@ $card-color: #A7FFA3;
     letter-spacing: 2px;
     box-shadow: 5px 0px 5px $header-color;
 }
+
+
+
+.book-list-item {
+
+    @media (max-width: 1000px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 18%;
+         grid-template-rows:repeat(1 200px); 
+    }
+
+    @media (max-width: 890px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 22%;
+         grid-template-rows:repeat(1 200px); 
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 10%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 700px) {
+        grid-template-columns: repeat(1, 300px);
+        margin-left: 25%;
+         grid-template-rows:repeat(1 200px); 
+    }
+
+
+    @media (max-width: 500px) {
+        grid-template-columns: repeat(1, 300px);
+        margin-left: 20%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 400px) {
+        grid-template-columns: repeat(1, 300px);
+        margin-left: 12%;
+         grid-template-rows:repeat(1 200px); 
+    }
+
+    @media (max-width: 360px) {
+        grid-template-columns: repeat(1, 300px);
+        margin-left: 9%;
+         grid-template-rows:repeat(1 200px); 
+    }
+}
+
+
+
+

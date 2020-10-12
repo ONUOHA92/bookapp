@@ -10,7 +10,7 @@ const SearchForm = ({search, searchChange,}) => {
             <form>
                 <h2 className="title">search for books here</h2>
                 <input type="text" placeholder="serch 
-                   for book here ..." className="input-form"
+                   for book here with the name ..." className="input-form"
                     value={search}
                     onChange={searchChange}
                 />           
