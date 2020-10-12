@@ -1,10 +1,9 @@
 import React from 'react';
 import "./listbook.scss"
 
-const ListOfbook = (props) => {
-
-
-    const bookList = props.books.map(book => (
+const ListOfbook = ({ filterallBooks}) => {
+    
+    const bookList = filterallBooks.map(book => (
         <div key={book.name} className="card">
             <h3 className="author"> Author :{book.authors}</h3>
             <p> Name: {book.name}</p>

@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./searchform.scss"
 
-const SearchForm = () => {
 
-    const [searchItem, setSearchItem] = useState("")
-    const [sarchBar, setSearchBar] = useState("")
+const SearchForm = ({search, searchChange,}) => {
 
-    const onChangeShearch = (e) => {
-        setSearchBar(e.target.value)
-    }
 
     return (
         <div className="search-form-container">
@@ -16,11 +11,9 @@ const SearchForm = () => {
                 <h2 className="title">search for books here</h2>
                 <input type="text" placeholder="serch 
                    for book here ..." className="input-form"
-                    onChange={onChangeShearch}
-                    value={sarchBar}
-
-                />
-                <button className="search-button">submit</button>
+                    value={search}
+                    onChange={searchChange}
+                />           
             </form>
         </div>
     );
