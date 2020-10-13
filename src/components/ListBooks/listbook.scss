@@ -28,7 +28,11 @@ $card-color: #A7FFA3;
     box-shadow: 5px 0px 5px $header-color;
 }
 
-
+.card {
+    @media (max-width: 715px) {
+        padding: 15px;
+    }
+}
 
 .book-list-item {
 
@@ -41,6 +45,21 @@ $card-color: #A7FFA3;
     @media (max-width: 890px) {
         grid-template-columns: repeat(2, 300px);
         margin-left: 22%;
+         grid-template-rows:repeat(1 300px); 
+    }
+    @media (max-width: 860px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 20%;
+         grid-template-rows:repeat(1 300px); 
+    }
+    @media (max-width: 818px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 14%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 811px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 10%;
          grid-template-rows:repeat(1 200px); 
     }
 
@@ -49,9 +68,47 @@ $card-color: #A7FFA3;
         margin-left: 10%;
          grid-template-rows:repeat(1 200px); 
     }
+
+    @media (max-width: 765px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 12%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 730px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 9%;
+         grid-template-rows:repeat(1 200px); 
+    }
+
+    @media (max-width: 715px) {
+        grid-template-columns: repeat(2, 300px); 
+        margin-left: 10%;
+        grid-template-rows:repeat(1 200px); 
+    }
+
     @media (max-width: 700px) {
         grid-template-columns: repeat(1, 300px);
         margin-left: 25%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 698px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 9%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 672px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 5%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 660px) {
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 3%;
+         grid-template-rows:repeat(1 200px); 
+    }
+    @media (max-width: 637px) {
+        grid-template-columns: repeat(1, 300px);
+        margin-left: 30%;
          grid-template-rows:repeat(1 200px); 
     }
 

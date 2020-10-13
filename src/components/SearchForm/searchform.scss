@@ -24,8 +24,25 @@ $Button-color:  #086972;
       @media (max-width: 900px) {
          margin-left: 20%;
       }
+
+      @media (max-width: 819px) {
+         margin-left: 15%;
+      }
+
       @media (max-width: 800px) {
          margin-left: 10%;
+         width: 75%;
+      }
+      @media (max-width: 765px) {
+         margin-left: 13%;
+         width: 75%;
+      }
+      @media (max-width: 730px) {
+         margin-left: 14%;
+         width: 75%;
+      }
+      @media (max-width: 715px) {
+         margin-left: 15%;
          width: 75%;
       }
 
